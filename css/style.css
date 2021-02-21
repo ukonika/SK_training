@@ -110,3 +110,13 @@ li{
     color: rgb(240, 238, 231);
     text-shadow: 3px 4px 6px black;
 }
+@keyframes ani{
+  
+}
+
+.anime{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background: rgb(43, 255, 0);
+}
