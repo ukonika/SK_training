@@ -1,0 +1,11 @@
+h1{
+    font-size: 30px;
+}
+li::before{
+    content: "\25ba";
+    padding-right: 10px;
+    color: rgb(146, 18, 238);
+}
+li{
+    list-style-type: none;
+}

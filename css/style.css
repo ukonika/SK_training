@@ -3,10 +3,10 @@ li::before{
     padding-right: 10px;
     color: rgb(146, 18, 238);
 }
-
 li{
     list-style-type: none;
 }
+
 
 .task2{
     width: 80%;
@@ -18,6 +18,8 @@ li{
     padding: 15px;
     margin: 0 auto;
 }
+
+
 
 .triangletop {
         width: 0;
@@ -86,6 +88,7 @@ li{
     height: 0;
   }
 
+
   .sh{
       width: 600px;
       height: 337px;
@@ -110,6 +113,8 @@ li{
     color: rgb(240, 238, 231);
     text-shadow: 3px 4px 6px black;
 }
+
+
 @keyframes ani{
   from{
     transform: rotate(1deg);
