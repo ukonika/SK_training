@@ -1,0 +1,22 @@
+h1{
+    font-size: 40px;
+}
+ul{
+    width: 50%;
+}
+li[type="none"]{
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(221, 220, 220);
+    border: 3px solid rgb(184, 183, 183);
+    text-align: center;
+    line-height: 50px;
+}
+li[type="none"]:nth-child(3){
+    background-color: greenyellow;
+}
+li[type="none"]:nth-child(7){
+    background-color: greenyellow;
+}

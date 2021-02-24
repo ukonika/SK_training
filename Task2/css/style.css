@@ -1,0 +1,19 @@
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+.fruits li:first-child{
+    color: hotpink;
+    font-weight: bold;
+
+}
+.fruits li:last-child{
+    color: lawngreen;
+    font-style: italic;
+}
+ul{
+    width: 50%;
+}

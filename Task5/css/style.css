@@ -1,0 +1,28 @@
+h1{
+    font-size: 40px;
+}
+.head{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.head::after{
+    content: "";
+    width: 140px;
+    height: 1px;
+    background-color: slategrey;
+    display: block;
+    margin: 5px auto;
+
+}
+.content{
+    color: slategrey;
+}
+div{
+    border: 5px solid red;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 540px;
+}

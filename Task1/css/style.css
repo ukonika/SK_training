@@ -1,0 +1,23 @@
+h1{
+    font-size: 40px;
+}
+
+.link::before{
+    content: " '' ";
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: hotpink;
+}
+
+.link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.link::after{
+    content: " '' ";
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: hotpink;
+}
