@@ -1,0 +1,22 @@
+h1{
+    font-size: 30px;
+}
+@keyframes ani{
+    from{
+      transform: rotate(1deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  
+  .anime{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background: rgb(43, 255, 0);
+    animation-name: ani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
