@@ -1,0 +1,97 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: grid;
+    width: 1440px;
+    height: 1276px;
+    background-color: #F6F7FA;
+    grid-template-columns: repeat(2, 660px);
+    grid-template-rows: repeat(5, 184px);
+    gap: 64px 24px;
+    justify-content: center;
+    align-content: center;
+}
+.black{
+    width: 660px;
+    height: 184px;
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+    position: relative;
+}
+.white{
+    width: 660px;
+    height: 184px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: relative;
+}
+.title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.one{
+    color: white;
+}
+.two{
+    color: #AD4328;
+}
+.text{
+    font-weight: 600;
+    font-size: 32px;
+}
+.head{
+    margin-top: 72px;
+    margin-left: 40px;
+}
+.img-1{
+    position: absolute;
+    right: 50px;
+    bottom: -32px;
+}
+.img-2{
+    position: absolute;
+    right: -29px;
+    bottom: -49px;
+}
+.img-3{
+    position: absolute;
+    right: 29px;
+    bottom: -65px;
+}
+.img-4{
+    position: absolute;
+    right: 29px;
+    bottom: -65px;
+}
+.img-5{
+    position: absolute;
+    right: 47px;
+    bottom: -23px;
+}
+.img-6{
+    position: absolute;
+    right: 65px;
+    bottom: -28px;
+}
+.img-7{
+    position: absolute;
+    right: 29px;
+    bottom: -54px;
+}
+.img-8{
+    position: absolute;
+    right: 38px;
+    bottom: -54px;
+
+}
+.img-9{
+    position: absolute;
+    right: 26px;
+    bottom: -68px;
+}
+.img-10{
+    position: absolute;
+    right: 42px;
+    bottom: -72px;
+}
