@@ -1,5 +1,5 @@
 {
-  "name": "exampleApp",
+  "name": "exampleapp",
   "version": "0.0.1",
   "description": "My first Project with Gulp",
   "main": "index.html",
@@ -23,5 +23,13 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-sass": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukonika/SK_training.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ukonika/SK_training/issues"
+  },
+  "homepage": "https://github.com/ukonika/SK_training#readme"
 }
