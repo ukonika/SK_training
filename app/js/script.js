@@ -1,68 +1,36 @@
-for(let i=9; i>1; i--) {
-    console.log(i**2)
-}
+// let i = 0;
+// console.log(typeof (i));
 
 
-
-
-// let a = 2 + 2;
-// // a = prompt("Input your digit", '0');
-// switch (a) {
-//     case 4:
-//         alert ('a');
-//         break;
-//     case 5:
-//         alert ('b');
-//         break;
-//     case 6:  
-//         alert ('c');
-//         break;  
-//     default:
-//         alert ('z');
-//         break;   
-// }
-// console.log(a);
-
-// let a = 1;
-// let n;
-
-// a = prompt("Input your digit", '0');
-// if (a > 0) {
-//   n = true;
+// if(i === 0) {
+//     console.log(true);
+// }else{
+//     console.log(false);
 // }
 
-// else {
-//     n = false;
-// }
-
-// console.log(n);
+// console.log((i === 0));
+// console.log((i == 0)? true : false);
 
 
+// let a = 6; b = 3;
+// console.log((a > b)? true : false);
 
-// let a = 1;
-// let b = 2;
-// let c;
+// let a = 3; b = 3;
+// console.log((a == b)? true : false);
 
-// a = prompt("Input your digit", '0');
+// let a = 3; b = 6;
+// console.log((a != b)? true : false);
 
-// if (a != null){
-//     console.log("ok was pressed");
-//     a = parseInt(a);
-//     if (a > 0 && a < 0) {
-//         c = a + b * 3;
-//     } else {
-//         c = a * 2 + b * 4;
-//     }
-// } 
+// let a = 1; b = "";
+// console.log((a === b)? true : false);
 
-// else {
-//      console.log("cancel was pressed");
-// }
+// alert ('B'>'A') false;
+// alert ('a'>'Z') true;
 
+// console.log(('2' === 2)? 'ok' : 'not');
 
+// let a = false; b = 0; 
+// console.log((a >= b)? true : false);
 
-// alert(c);
-
-// console.log(c);
-// c++;
-// console.log(c);
+// let str = prompt("Input your digit", 0);
+// alert(str);
